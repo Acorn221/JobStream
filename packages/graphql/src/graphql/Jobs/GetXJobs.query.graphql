@@ -1,0 +1,18 @@
+query GetXJobs($newestFirst:Boolean, $take:Int) {
+  user {
+    ... on QueryUserSuccess {
+      __typename
+      data {
+        job(newestFirst:$newestFirst, take:$take) {
+          description
+          status
+          createdAt
+          id
+          name
+          updatedAt
+          url
+        }
+      }
+    }
+  }
+}

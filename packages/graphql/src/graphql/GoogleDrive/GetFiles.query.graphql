@@ -1,0 +1,3 @@
+query GetFiles($q:String!, $fields: String!, $pageSize: Int, $pageToken: String) {
+  GetFilesFromDrive(q: $q, fields: $fields, pageSize: $pageSize, pageToken: $pageToken)
+}

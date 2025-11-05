@@ -1,0 +1,5 @@
+mutation UpdateJob($id:String!, $description: [String!], $name: String, $status: String) {
+  Updatejob(id: $id, description: $description, name: $name, status: $status, refreshSuitabilityScore: true){
+    id
+  }
+}

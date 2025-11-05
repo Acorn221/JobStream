@@ -1,0 +1,10 @@
+node_modules
+
+apps/backend/src/test_data/cv.json
+.vscode
+.turbo
+jwtRS256.key
+jwtRS256.key.pub
+apps/extension/build/chrome-mv3-dev/
+.env.production
+.env.development

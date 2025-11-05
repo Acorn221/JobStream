@@ -1,0 +1,28 @@
+{
+  "name": "serverless-helpers",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "main": "index.ts",
+  "types": "index.ts",
+  "scripts": {
+    "check:updates": "npx npm-check-updates",
+    "check:updates:u": "npx npm-check-updates -u && pnpm i",
+    "test": "vitest run --coverage",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@middy/core": "^4.2.6",
+    "@middy/http-json-body-parser": "^4.2.6",
+    "@types/jsonwebtoken": "^9.0.3",
+    "@types/jwk-to-pem": "^2.0.2",
+    "axios": "^1.5.1",
+    "backend-env": "workspace:^",
+    "jsonwebtoken": "^9.0.2",
+    "jwk-to-pem": "^2.0.5"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.111",
+    "json-schema-to-ts": "^2.7.2"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "name": "workspace-root",
+  "private": true,
+  "scripts": {
+    "dev": "dotenv -- turbo dev",
+    "backend-dev": "dotenv -e .env -e .env.development -- turbo dev --scope=Jetstream-Backend",
+    "frontend-dev": "dotenv -e .env -e .env.development -- turbo dev --scope=Jetstream-Frontend",
+    "extension-dev": "dotenv -e .env -e .env.development -- turbo dev --scope=Jetstream-Extension",
+    "serverless-run-dev": "dotenv -e .env -e .env.development -- turbo dev --scope=Jetstream-Serverless-Api",
+    "serverless-deploy-dev": "dotenv -e .env -e .env.development -- turbo serverless-deploy-dev --scope=Jetstream-Serverless-Api",
+    "extension-build-dev": "dotenv -e .env -e .env.development -- turbo build-chrome --scope=Jetstream-Extension",
+    "backend-build": "dotenv -e .env -e .env.production -- turbo build --scope=Jetstream-Backend",
+    "lambda-build": "dotenv -e .env -e .env.production -- turbo build --scope=Jetstream-AWS-Lambda",
+    "backend-run": "dotenv -e .env -e .env.production -- node apps/backend/dist/index.js",
+    "frontend-build": "dotenv -e .env -e .env.production -- turbo build --scope=Jetstream-Frontend",
+    "stripe-setup-dev": "dotenv -e .env -e .env.development -- turbo run stripe-setup",
+    "prisma-push-generate": "dotenv -e .env -e .env.development -- turbo prisma-init --scope=database",
+    "prisma-init-data-loss": "dotenv -e .env -e .env.development -- turbo prisma-init-data-loss --scope=database",
+    "generateTestData": "pnpm --filter ./apps/** generateTestData",
+    "graphql-codegen": "dotenv -e .env -e .env.development -- turbo graphql-codegen",
+    "build": "pnpm --filter ./apps/** build",
+    "frontend-build-prod": "dotenv -e .env -e .env.production -- turbo build --scope=Jetstream-Frontend",
+    "extension-build-prod": "dotenv -e .env -e .env.production -- turbo build-chrome --scope=Jetstream-Extension",
+    "extension-build-firefox-prod": "dotenv -e .env -e .env.production -- turbo build-firefox --scope=Jetstream-Extension",
+    "prisma-generate": "dotenv -e .env -e .env.development -- turbo prisma-generate --scope=database",
+    "prisma-generate-prod": "dotenv -e .env -e .env.production -- turbo prisma-generate --scope=database",
+    "prisma-push-generate-prod": "dotenv -e .env -e .env.production -- turbo prisma-init --scope=database",
+    "serverless-deploy-prod": "dotenv -e .env -e .env.production -- turbo serverless-deploy-prod --scope=Jetstream-Serverless-Api",
+    "sales-page-build": "dotenv -e .env -e .env.production -- turbo build --scope=Jetstream-Sales-Page",
+    "stripe-setup-prod": "dotenv -e .env -e .env.production -- turbo run stripe-setup"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.8.5",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@graphql-codegen/gql-tag-operations-preset": "^2.1.0",
+    "@mui/material": "^5.14.12",
+    "autoprefixer": "^10.4.16",
+    "cross-env": "^7.0.3",
+    "dotenv-cli": "^7.3.0",
+    "graphql": "17.0.0-alpha.3",
+    "graphql-scalars": "^1.22.2",
+    "serverless": "^3.35.2",
+    "tailwindcss": "^3.3.3",
+    "tsconfig-paths": "^4.2.0",
+    "turbo": "^1.10.15"
+  },
+  "devDependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "@babel/core": "^7.23.0",
+    "@graphql-codegen/cli": "^3.3.1",
+    "@graphql-codegen/client-preset": "^4.1.0",
+    "@graphql-codegen/named-operations-object": "^2.3.1",
+    "@graphql-codegen/typescript": "^3.0.4",
+    "@graphql-codegen/typescript-operations": "^3.0.4",
+    "@graphql-codegen/typescript-react-apollo": "^3.3.7",
+    "@graphql-codegen/typescript-resolvers": "^3.2.1",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "graphql-tag": "^2.12.6",
+    "jwt-decode": "^3.1.2",
+    "prettier": "^3.0.3",
+    "supabase": "^1.100.1",
+    "typescript": "^5.2.2"
+  },
+  "eslintConfig": {
+    "env": {
+      "es2021": true
+    },
+    "extends": [
+      "plugin:react/recommended",
+      "airbnb"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "plugins": [
+      "react",
+      "@typescript-eslint"
+    ],
+    "rules": {
+      "react/function-component-definition": [
+        2,
+        {
+          "namedComponents": "arrow-function",
+          "unnamedComponents": "arrow-function"
+        }
+      ],
+      "linebreak-style": 0,
+      "no-plusplus": 0,
+      "no-tabs": [
+        "error",
+        {
+          "allowIndentationTabs": true
+        }
+      ],
+      "import/extensions": 0,
+      "import/no-unresolved": 0,
+      "import/no-extraneous-dependencies": 0,
+      "jsx-a11y/click-events-have-key-events": 0,
+      "jsx-a11y/no-static-element-interactions": 0,
+      "react/forbid-prop-types": 0,
+      "react/react-in-jsx-scope": 0,
+      "react/require-default-props": 0,
+      "no-unused-vars": 0,
+      "react/jsx-filename-extension": 0,
+      "react/button-has-type": 0,
+      "jsx-a11y/anchor-is-valid": 0,
+      "jsx-a11y/alt-text": 0,
+      "no-bitwise": 0,
+      "react/jsx-props-no-spreading": 0,
+      "react/prop-types": 0,
+      "no-console": 0,
+      "no-alert": 0,
+      "import/prefer-default-export": 0,
+      "no-shadow": "off",
+      "@typescript-eslint/no-shadow": "error",
+      "no-undef": 0,
+      "no-underscore-dangle": 0
+    },
+    "ignorePatterns": [
+      "generated.ts",
+      "*.js"
+    ]
+  }
+}

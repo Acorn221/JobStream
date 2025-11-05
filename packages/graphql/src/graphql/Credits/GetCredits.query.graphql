@@ -1,0 +1,31 @@
+query GetCredits {
+  user {
+    ... on QueryUserSuccess {
+      __typename
+      data {
+        credits {
+          id
+          amount
+          note
+          createdAt
+          updatedAt
+          userId
+          generatedCoverLetter {
+            id
+            createdAt
+            name
+            googleDocId
+          }
+          generatedCv {
+            id
+            createdAt
+            googleDocId
+            job {
+              id
+            }
+          }
+        }
+      }
+    }
+  }
+}

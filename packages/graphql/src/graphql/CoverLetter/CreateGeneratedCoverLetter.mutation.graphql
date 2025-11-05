@@ -1,0 +1,16 @@
+mutation CreateGeneratedCoverLetter($jobId:String!) {
+  CreateGeneratedCoverLetter(jobId: $jobId) {
+    ... on Error {
+      __typename
+      message
+    }
+    ... on MutationCreateGeneratedCoverLetterSuccess {
+      __typename
+      data {
+        id
+        googleDocId
+        name
+      }
+    }
+  }
+}

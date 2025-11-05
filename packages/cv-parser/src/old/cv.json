@@ -1,0 +1,1922 @@
+{
+  "title": "Revised CV",
+  "body": {
+    "content": [
+      {
+        "endIndex": 1,
+        "sectionBreak": {
+          "sectionStyle": {
+            "columnSeparatorStyle": "NONE",
+            "contentDirection": "LEFT_TO_RIGHT",
+            "marginTop": {
+              "magnitude": 14.4,
+              "unit": "PT"
+            },
+            "marginBottom": {
+              "magnitude": 14.4,
+              "unit": "PT"
+            },
+            "marginRight": {
+              "magnitude": 14.4,
+              "unit": "PT"
+            },
+            "marginLeft": {
+              "magnitude": 14.4,
+              "unit": "PT"
+            },
+            "sectionType": "CONTINUOUS"
+          }
+        }
+      },
+      {
+        "startIndex": 1,
+        "endIndex": 28,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1,
+              "endIndex": 16,
+              "textRun": {
+                "content": "James Arnott - ",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 24,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "IBM Plex Mono",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 16,
+              "endIndex": 27,
+              "textRun": {
+                "content": "ML Engineer",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 24,
+                    "unit": "PT"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 27,
+              "endIndex": 28,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 24,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "IBM Plex Mono",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "headingId": "h.kvxyag43ec0g",
+            "namedStyleType": "TITLE",
+            "alignment": "CENTER",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 28,
+        "endIndex": 94,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 28,
+              "endIndex": 45,
+              "textRun": {
+                "content": "James@Arnott.tech",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "IBM Plex Mono",
+                    "weight": 400
+                  },
+                  "link": {
+                    "url": "mailto:james@arnott.tech"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 45,
+              "endIndex": 48,
+              "textRun": {
+                "content": " - ",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "IBM Plex Mono",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 48,
+              "endIndex": 59,
+              "textRun": {
+                "content": "Arnott.tech",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "IBM Plex Mono",
+                    "weight": 400
+                  },
+                  "link": {
+                    "url": "https://arnott.tech"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 59,
+              "endIndex": 62,
+              "textRun": {
+                "content": " - ",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "IBM Plex Mono",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 62,
+              "endIndex": 73,
+              "textRun": {
+                "content": "07719708331",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "IBM Plex Mono",
+                    "weight": 400
+                  },
+                  "link": {
+                    "url": "tel:07719708331"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 73,
+              "endIndex": 94,
+              "textRun": {
+                "content": " - Brighton, England\n",
+                "textStyle": {
+                  "weightedFontFamily": {
+                    "fontFamily": "IBM Plex Mono",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "alignment": "CENTER",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      },
+      {
+        "startIndex": 94,
+        "endIndex": 2148,
+        "table": {
+          "rows": 3,
+          "columns": 2,
+          "tableRows": [
+            {
+              "startIndex": 95,
+              "endIndex": 790,
+              "tableCells": [
+                {
+                  "startIndex": 96,
+                  "endIndex": 442,
+                  "content": [
+                    {
+                      "startIndex": 97,
+                      "endIndex": 104,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 97,
+                            "endIndex": 104,
+                            "textRun": {
+                              "content": "Skills\n",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 1,
+                                      "green": 1
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "headingId": "h.yp39d5amvywj",
+                          "namedStyleType": "HEADING_1",
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 104,
+                      "endIndex": 260,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 104,
+                            "endIndex": 260,
+                            "textRun": {
+                              "content": "My machine learning skills include a strong understanding of keras, based on tensorflow, alongside data processing libraries such as pandas and matplotlib.\n",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 1,
+                                      "green": 1
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 260,
+                      "endIndex": 442,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 260,
+                            "endIndex": 441,
+                            "textRun": {
+                              "content": "I have worked on projects to use transfer learning, SVMs and KNNs to help classify different medical scans, or to optimize seed generation for animations on lower resolution screens",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 1,
+                                      "green": 1
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 441,
+                            "endIndex": 442,
+                            "textRun": {
+                              "content": "\n",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 1,
+                                      "green": 1
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    }
+                  }
+                },
+                {
+                  "startIndex": 442,
+                  "endIndex": 790,
+                  "content": [
+                    {
+                      "startIndex": 443,
+                      "endIndex": 461,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 443,
+                            "endIndex": 461,
+                            "textRun": {
+                              "content": "Previous Projects\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "headingId": "h.4n5igw7gg9bd",
+                          "namedStyleType": "HEADING_1",
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 461,
+                      "endIndex": 584,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 461,
+                            "endIndex": 584,
+                            "textRun": {
+                              "content": "I have developed multiple chrome extensions, with a total monthly user count of 10k and around 200k impressions per month.\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 584,
+                      "endIndex": 741,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 584,
+                            "endIndex": 689,
+                            "textRun": {
+                              "content": "Aside from web development, I did my dissertation on comparison of base models for transfer learning for ",
+                              "textStyle": {}
+                            }
+                          },
+                          {
+                            "startIndex": 689,
+                            "endIndex": 740,
+                            "textRun": {
+                              "content": "Alzheimer’s Disease and skin cancer classification.",
+                              "textStyle": {
+                                "underline": true,
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.06666667,
+                                      "green": 0.33333334,
+                                      "blue": 0.8
+                                    }
+                                  }
+                                },
+                                "link": {
+                                  "url": "https://github.com/Acorn221/RHUL-Final-Year-Project/"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 740,
+                            "endIndex": 741,
+                            "textRun": {
+                              "content": "\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 741,
+                      "endIndex": 790,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 741,
+                            "endIndex": 744,
+                            "textRun": {
+                              "content": "My ",
+                              "textStyle": {}
+                            }
+                          },
+                          {
+                            "startIndex": 744,
+                            "endIndex": 751,
+                            "textRun": {
+                              "content": "website",
+                              "textStyle": {
+                                "underline": true,
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.06666667,
+                                      "green": 0.33333334,
+                                      "blue": 0.8
+                                    }
+                                  }
+                                },
+                                "link": {
+                                  "url": "https://arnott.tech/"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 751,
+                            "endIndex": 756,
+                            "textRun": {
+                              "content": " and ",
+                              "textStyle": {}
+                            }
+                          },
+                          {
+                            "startIndex": 756,
+                            "endIndex": 762,
+                            "textRun": {
+                              "content": "GitHub",
+                              "textStyle": {
+                                "underline": true,
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.06666667,
+                                      "green": 0.33333334,
+                                      "blue": 0.8
+                                    }
+                                  }
+                                },
+                                "link": {
+                                  "url": "https://github.com/Acorn221"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 762,
+                            "endIndex": 789,
+                            "textRun": {
+                              "content": " have more projects listed.",
+                              "textStyle": {}
+                            }
+                          },
+                          {
+                            "startIndex": 789,
+                            "endIndex": 790,
+                            "textRun": {
+                              "content": "\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    }
+                  }
+                }
+              ],
+              "tableRowStyle": {
+                "minRowHeight": {
+                  "unit": "PT"
+                }
+              }
+            },
+            {
+              "startIndex": 790,
+              "endIndex": 1228,
+              "tableCells": [
+                {
+                  "startIndex": 791,
+                  "endIndex": 1083,
+                  "content": [
+                    {
+                      "startIndex": 792,
+                      "endIndex": 803,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 792,
+                            "endIndex": 803,
+                            "textRun": {
+                              "content": "Experience\n",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 1,
+                                      "green": 1
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "headingId": "h.rh28q03ox3c6",
+                          "namedStyleType": "HEADING_1",
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 803,
+                      "endIndex": 932,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 803,
+                            "endIndex": 932,
+                            "textRun": {
+                              "content": "I’ve worked in the Royal Holloway Codegroovers team, developing multiple projects, including a wellbeing app for the university.\n",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 1,
+                                      "green": 1
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 932,
+                      "endIndex": 1083,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 932,
+                            "endIndex": 1082,
+                            "textRun": {
+                              "content": "I’ve also worked many times in a team to work on different projects, like hotel booking, file management and restaurant booking systems at university.",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 1,
+                                      "green": 1
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 1082,
+                            "endIndex": 1083,
+                            "textRun": {
+                              "content": "\n",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 1,
+                                      "green": 1
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    }
+                  }
+                },
+                {
+                  "startIndex": 1083,
+                  "endIndex": 1228,
+                  "content": [
+                    {
+                      "startIndex": 1084,
+                      "endIndex": 1099,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1084,
+                            "endIndex": 1099,
+                            "textRun": {
+                              "content": "Qualifications\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "headingId": "h.fquyevjq9iq",
+                          "namedStyleType": "HEADING_1",
+                          "direction": "LEFT_TO_RIGHT",
+                          "avoidWidowAndOrphan": false
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 1099,
+                      "endIndex": 1170,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1099,
+                            "endIndex": 1122,
+                            "textRun": {
+                              "content": "BSc In Computer Science",
+                              "textStyle": {
+                                "bold": true
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 1122,
+                            "endIndex": 1128,
+                            "textRun": {
+                              "content": " from ",
+                              "textStyle": {}
+                            }
+                          },
+                          {
+                            "startIndex": 1128,
+                            "endIndex": 1142,
+                            "textRun": {
+                              "content": "Royal Holloway",
+                              "textStyle": {
+                                "underline": true,
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.06666667,
+                                      "green": 0.33333334,
+                                      "blue": 0.8
+                                    }
+                                  }
+                                },
+                                "link": {
+                                  "url": "https://www.royalholloway.ac.uk/"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 1142,
+                            "endIndex": 1170,
+                            "textRun": {
+                              "content": ", Second Class Honors (2:1)\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "direction": "LEFT_TO_RIGHT",
+                          "indentFirstLine": {
+                            "magnitude": 18,
+                            "unit": "PT"
+                          },
+                          "indentStart": {
+                            "magnitude": 36,
+                            "unit": "PT"
+                          }
+                        },
+                        "bullet": {
+                          "listId": "kix.j07046518sz6",
+                          "textStyle": {}
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 1170,
+                      "endIndex": 1228,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1170,
+                            "endIndex": 1182,
+                            "textRun": {
+                              "content": "A-Levels AAB",
+                              "textStyle": {
+                                "bold": true
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 1182,
+                            "endIndex": 1227,
+                            "textRun": {
+                              "content": " In Computer Science, IT and Business Studies",
+                              "textStyle": {}
+                            }
+                          },
+                          {
+                            "startIndex": 1227,
+                            "endIndex": 1228,
+                            "textRun": {
+                              "content": "\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "direction": "LEFT_TO_RIGHT",
+                          "indentFirstLine": {
+                            "magnitude": 18,
+                            "unit": "PT"
+                          },
+                          "indentStart": {
+                            "magnitude": 36,
+                            "unit": "PT"
+                          }
+                        },
+                        "bullet": {
+                          "listId": "kix.j07046518sz6",
+                          "textStyle": {}
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    }
+                  }
+                }
+              ],
+              "tableRowStyle": {
+                "minRowHeight": {
+                  "unit": "PT"
+                }
+              }
+            },
+            {
+              "startIndex": 1228,
+              "endIndex": 2147,
+              "tableCells": [
+                {
+                  "startIndex": 1229,
+                  "endIndex": 1609,
+                  "content": [
+                    {
+                      "startIndex": 1230,
+                      "endIndex": 1242,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1230,
+                            "endIndex": 1242,
+                            "textRun": {
+                              "content": "Soft Skills\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "headingId": "h.lt9l70ujjh5b",
+                          "namedStyleType": "HEADING_1",
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 1242,
+                      "endIndex": 1608,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1242,
+                            "endIndex": 1262,
+                            "textRun": {
+                              "content": "I was elected to be ",
+                              "textStyle": {}
+                            }
+                          },
+                          {
+                            "startIndex": 1262,
+                            "endIndex": 1276,
+                            "textRun": {
+                              "content": "Vice President",
+                              "textStyle": {
+                                "bold": true
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 1276,
+                            "endIndex": 1284,
+                            "textRun": {
+                              "content": " in the ",
+                              "textStyle": {}
+                            }
+                          },
+                          {
+                            "startIndex": 1284,
+                            "endIndex": 1316,
+                            "textRun": {
+                              "content": "Royal Holloway Computing Society",
+                              "textStyle": {
+                                "underline": true,
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.06666667,
+                                      "green": 0.33333334,
+                                      "blue": 0.8
+                                    }
+                                  }
+                                },
+                                "link": {
+                                  "url": "https://computingsociety.co.uk/"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 1316,
+                            "endIndex": 1342,
+                            "textRun": {
+                              "content": ", in a management role at ",
+                              "textStyle": {}
+                            }
+                          },
+                          {
+                            "startIndex": 1342,
+                            "endIndex": 1356,
+                            "textRun": {
+                              "content": "Royal Hackaway",
+                              "textStyle": {
+                                "underline": true,
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.06666667,
+                                      "green": 0.33333334,
+                                      "blue": 0.8
+                                    }
+                                  }
+                                },
+                                "link": {
+                                  "url": "https://royalhackaway.co.uk/"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 1356,
+                            "endIndex": 1535,
+                            "textRun": {
+                              "content": " where I got the event funding through sponsors and managed the setup and running of the event. In the computing society, I also ran the SU club 80s90s00s night, doing giveaways, ",
+                              "textStyle": {}
+                            }
+                          },
+                          {
+                            "startIndex": 1535,
+                            "endIndex": 1562,
+                            "textRun": {
+                              "content": "programming a message board",
+                              "textStyle": {
+                                "underline": true,
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.06666667,
+                                      "green": 0.33333334,
+                                      "blue": 0.8
+                                    }
+                                  }
+                                },
+                                "link": {
+                                  "url": "https://github.com/rhul-compsoc/twitter-stream"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 1562,
+                            "endIndex": 1567,
+                            "textRun": {
+                              "content": " and ",
+                              "textStyle": {}
+                            }
+                          },
+                          {
+                            "startIndex": 1567,
+                            "endIndex": 1607,
+                            "textRun": {
+                              "content": "custom designing graphics for the night.",
+                              "textStyle": {
+                                "underline": true,
+                                "foregroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 0.06666667,
+                                      "green": 0.33333334,
+                                      "blue": 0.8
+                                    }
+                                  }
+                                },
+                                "link": {
+                                  "url": "https://github.com/Acorn221/hopalong-redux"
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 1607,
+                            "endIndex": 1608,
+                            "textRun": {
+                              "content": "\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 1608,
+                      "endIndex": 1609,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1608,
+                            "endIndex": 1609,
+                            "textRun": {
+                              "content": "\n",
+                              "textStyle": {}
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    }
+                  }
+                },
+                {
+                  "startIndex": 1609,
+                  "endIndex": 2147,
+                  "content": [
+                    {
+                      "startIndex": 1610,
+                      "endIndex": 1620,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1610,
+                            "endIndex": 1620,
+                            "textRun": {
+                              "content": "Interests\n",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 1,
+                                      "green": 1
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "headingId": "h.pgcwrzav3zck",
+                          "namedStyleType": "HEADING_1",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT",
+                          "avoidWidowAndOrphan": false
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 1620,
+                      "endIndex": 1789,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1620,
+                            "endIndex": 1787,
+                            "textRun": {
+                              "content": "In my spare time, I enjoy rowing, sailing, lifting weights at the gym and programming various projects, 3d printing and 3D CAD and playing around with microcontrollers",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 1,
+                                      "green": 1
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 1787,
+                            "endIndex": 1789,
+                            "textRun": {
+                              "content": ".\n",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 1,
+                                      "green": 1
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 1789,
+                      "endIndex": 1982,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1789,
+                            "endIndex": 1982,
+                            "textRun": {
+                              "content": "I enjoy working on electronics including upgrading and repairing them, and I have gained knowledge of how lots of commonly used devices function, such as TVs, laptops and computer peripherals.\n",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 1,
+                                      "green": 1
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    },
+                    {
+                      "startIndex": 1982,
+                      "endIndex": 2147,
+                      "paragraph": {
+                        "elements": [
+                          {
+                            "startIndex": 1982,
+                            "endIndex": 2146,
+                            "textRun": {
+                              "content": "I keep informed about global politics and new technologies in the software engineering world, alongside artificial intelligence developments and cybersecurity news.",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 1,
+                                      "green": 1
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          {
+                            "startIndex": 2146,
+                            "endIndex": 2147,
+                            "textRun": {
+                              "content": "\n",
+                              "textStyle": {
+                                "backgroundColor": {
+                                  "color": {
+                                    "rgbColor": {
+                                      "red": 1,
+                                      "green": 1
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "paragraphStyle": {
+                          "namedStyleType": "NORMAL_TEXT",
+                          "lineSpacing": 100,
+                          "direction": "LEFT_TO_RIGHT"
+                        }
+                      }
+                    }
+                  ],
+                  "tableCellStyle": {
+                    "rowSpan": 1,
+                    "columnSpan": 1,
+                    "backgroundColor": {},
+                    "paddingLeft": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    },
+                    "paddingRight": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    },
+                    "paddingTop": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    },
+                    "paddingBottom": {
+                      "magnitude": 4.968,
+                      "unit": "PT"
+                    }
+                  }
+                }
+              ],
+              "tableRowStyle": {
+                "minRowHeight": {
+                  "unit": "PT"
+                }
+              }
+            }
+          ],
+          "tableStyle": {
+            "tableColumnProperties": [
+              {
+                "widthType": "EVENLY_DISTRIBUTED"
+              },
+              {
+                "widthType": "EVENLY_DISTRIBUTED"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "startIndex": 2148,
+        "endIndex": 2149,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2148,
+              "endIndex": 2149,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {}
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "direction": "LEFT_TO_RIGHT"
+          }
+        }
+      }
+    ]
+  },
+  "documentStyle": {
+    "background": {
+      "color": {
+        "color": {
+          "rgbColor": {
+            "red": 1,
+            "green": 1,
+            "blue": 1
+          }
+        }
+      }
+    },
+    "pageNumberStart": 1,
+    "marginTop": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginBottom": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginRight": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginLeft": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "pageSize": {
+      "height": {
+        "magnitude": 841.8897637795277,
+        "unit": "PT"
+      },
+      "width": {
+        "magnitude": 595.2755905511812,
+        "unit": "PT"
+      }
+    },
+    "marginHeader": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "marginFooter": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "useCustomHeaderFooterMargins": true
+  },
+  "namedStyles": {
+    "styles": [
+      {
+        "namedStyleType": "NORMAL_TEXT",
+        "textStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "smallCaps": false,
+          "backgroundColor": {},
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {}
+            }
+          },
+          "fontSize": {
+            "magnitude": 10,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "IBM Plex Mono",
+            "weight": 400
+          },
+          "baselineOffset": "NONE"
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "alignment": "START",
+          "lineSpacing": 100,
+          "direction": "LEFT_TO_RIGHT",
+          "spacingMode": "COLLAPSE_LISTS",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "borderBetween": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderTop": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderBottom": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderLeft": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderRight": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "indentFirstLine": {
+            "unit": "PT"
+          },
+          "indentStart": {
+            "unit": "PT"
+          },
+          "indentEnd": {
+            "unit": "PT"
+          },
+          "keepLinesTogether": false,
+          "keepWithNext": false,
+          "avoidWidowAndOrphan": true,
+          "shading": {
+            "backgroundColor": {}
+          },
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_1",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 20,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "IBM Plex Mono",
+            "weight": 300
+          }
+        },
+        "paragraphStyle": {
+          "headingId": "h.yp39d5amvywj",
+          "namedStyleType": "HEADING_1",
+          "alignment": "CENTER",
+          "lineSpacing": 100,
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 20,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true
+        }
+      },
+      {
+        "namedStyleType": "HEADING_2",
+        "textStyle": {
+          "bold": false,
+          "fontSize": {
+            "magnitude": 16,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 18,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_3",
+        "textStyle": {
+          "bold": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.2627451,
+                "green": 0.2627451,
+                "blue": 0.2627451
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 14,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_4",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 12,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 14,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_5",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_6",
+        "textStyle": {
+          "italic": true,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "TITLE",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 26,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 3,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "SUBTITLE",
+        "textStyle": {
+          "italic": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 15,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      }
+    ]
+  },
+  "lists": {
+    "kix.j07046518sz6": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%0",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%1",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%2",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%3",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%4",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%5",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%6",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%7",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%8",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    }
+  },
+  "revisionId": "ALBJ4Lv0qpS3sWUej3nsQ3wcg48gipi_ZOrrDQnx5DaLxkoQd4z5QCJ1KDTu0SL9ZR7wQ-3o3iFD02fyiE_Esw",
+  "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "documentId": "1wpeuwv6bUrjEnyZFlD6cBlZl_Tx1A6iB30WM24VB3og"
+}

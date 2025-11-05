@@ -1,0 +1,47 @@
+{
+  "name": "Jetstream-Serverless-Api",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "serverless offline start",
+    "serverless-deploy-dev": "serverless deploy --stage dev",
+    "serverless-deploy-prod": "serverless deploy --stage prod",
+    "test": "vitest run --coverage --passWithNoTests",
+    "test:watch": "vitest --passWithNoTests",
+    "lint": "eslint '**/*.ts'",
+    "lint:fix": "eslint '**/*.ts' --fix",
+    "package": "serverless package"
+  },
+  "dependencies": {
+    "@graphql-yoga/plugin-disable-introspection": "^1.0.5",
+    "@types/jsonwebtoken": "^9.0.3",
+    "@types/jwk-to-pem": "^2.0.2",
+    "aws-sdk": "^2.1478.0",
+    "axios": "^1.5.1",
+    "backend-env": "workspace:^",
+    "database": "workspace:^",
+    "esbuild-plugin-copy": "^2.1.1",
+    "graphql-yoga": "^4.0.5",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^9.0.2",
+    "jwk-to-pem": "^2.0.5",
+    "lodash.capitalize": "^4.2.1",
+    "misc-glob": "workspace:^",
+    "npm": "^10.2.1",
+    "serverless-helpers": "workspace:*",
+    "yoga-server": "workspace:^"
+  },
+  "devDependencies": {
+    "@serverless/typescript": "^3.29.0",
+    "@types/aws-lambda": "^8.10.114",
+    "@types/lodash.capitalize": "^4.2.7",
+    "@types/node": "^20.8.6",
+    "esbuild": "0.17.19",
+    "eslint": "^8.36.0",
+    "prettier": "latest",
+    "serverless": "^3.29.0",
+    "serverless-dotenv-plugin": "^6.0.0",
+    "serverless-esbuild": "^1.43.0",
+    "serverless-offline": "^12.0.4"
+  }
+}

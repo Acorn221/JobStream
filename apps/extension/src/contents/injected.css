@@ -1,0 +1,8 @@
+.element-picker-selected {
+  background-color: yellow;
+}
+
+.element-picker-hovered {
+  outline: 1px solid red;
+  outline-offset: -1px;
+}

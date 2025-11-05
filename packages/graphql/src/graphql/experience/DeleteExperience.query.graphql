@@ -1,0 +1,7 @@
+mutation DeleteExperience($id: String!) {
+  DeleteExperience(id: $id)
+}
+
+mutation DeleteMultipleExperience($ids: [String!]) {
+  DeleteExperience(ids: $ids)
+}

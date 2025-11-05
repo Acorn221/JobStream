@@ -1,0 +1,3 @@
+mutation CreateCV($googleDocIds: [String!]!) {
+  CreateCV(googleDocIds: $googleDocIds)
+}

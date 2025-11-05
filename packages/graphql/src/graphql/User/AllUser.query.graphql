@@ -1,0 +1,40 @@
+query AllUser {
+  user {
+    ... on Error {
+      __typename
+      message
+    }
+    ... on QueryUserSuccess {
+      __typename
+      data {
+        createdAt
+        email
+        id
+        name
+        updatedAt
+        creditsSum
+        CV {
+          CvContent
+          id
+          createdAt
+          name
+          updatedAt
+        }
+        Experience {
+          content
+          createdAt
+          id
+          name
+          updatedAt
+        }
+        job {
+          description
+          createdAt
+          id
+          name
+          updatedAt
+        }
+      }
+    }
+  }
+}

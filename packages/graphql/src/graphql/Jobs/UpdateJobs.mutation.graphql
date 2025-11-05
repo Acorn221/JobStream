@@ -1,0 +1,3 @@
+mutation UpdateJobs($ids:[String!]!, $status:String!) {
+  UpdateJobs(ids: $ids, status: $status)
+}

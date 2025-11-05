@@ -1,0 +1,79 @@
+{
+  "name": "Jetstream-Extension",
+  "displayName": "JobStream",
+  "version": "0.0.6",
+  "description": "Jobstream is an extension to help you apply to jobs faster, with better applications.",
+  "author": "James",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build-chrome": "plasmo build",
+    "build-firefox": "plasmo build --target=firefox-mv2",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.8.1",
+    "@emotion/cache": "11.11.0",
+    "@emotion/react": "11.11.1",
+    "@emotion/styled": "11.11.0",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/material": "5.14.5",
+    "@mui/system": "^5.14.5",
+    "@mui/x-data-grid": "^6.11.1",
+    "@plasmohq/messaging": "^0.1.8",
+    "@plasmohq/storage": "^1.7.2",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/gapi": "^0.0.44",
+    "@types/gapi.auth2": "^0.0.57",
+    "@types/google-apps-script": "^1.0.64",
+    "@types/webextension-polyfill": "^0.10.1",
+    "daisyui": "^3.5.0",
+    "gapi-script": "^1.2.0",
+    "graphql": "^17.0.0-alpha.2",
+    "graphql-generated-code": "workspace:*",
+    "hash-it": "^6.0.0",
+    "jwt-decode": "^3.1.2",
+    "misc-glob": "workspace:*",
+    "plasmo": "^0.84.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "react-toastify": "^9.1.3",
+    "tailwind-config": "workspace:*",
+    "tailwindcss": "3.2.4",
+    "uuidv4": "^6.2.13",
+    "webextension-polyfill": "^0.10.0"
+  },
+  "devDependencies": {
+    "@plasmohq/prettier-plugin-sort-imports": "3.6.3",
+    "@types/chrome": "0.0.210",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "autoprefixer": "10.4.13",
+    "postcss": "8.4.21",
+    "prettier": "2.8.3",
+    "typescript": "4.9.4"
+  },
+  "manifest": {
+    "permissions": [
+      "webRequest",
+      "storage",
+      "activeTab",
+      "tabs"
+    ],
+    "externally_connectable": {
+      "matches": [
+        "http://localhost:5173/*",
+        "https://jobstream.uk/*",
+        "https://jobstream.pages.dev/*",
+        "https://j4a.uk/*",
+        "https://app.jobstream.uk/*"
+      ]
+    },
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "main@jobstream.uk"
+      }
+    }
+  }
+}

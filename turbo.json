@@ -1,0 +1,111 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalDotEnv": [".env"],
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "dotEnv": [".env.production", ".env"]
+    },
+    "deploy": {
+      "env": ["NODE_ENV=production"],
+      "dependsOn": ["build", "test", "lint"]
+    },
+    "dev-env": {
+      "dotEnv": [".env.development.local", ".env.development", ".env.local", ".env"]
+    },
+    "prod-env": {
+      "dotEnv": [".env.production", ".env"]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true,
+      "dotEnv": [".env.development.local", ".env.development", ".env.local", ".env"]
+    },
+    "backend-dev": {
+      "cache": false,
+      "persistent": true,
+      "dependsOn": ["^dev-env"]
+    },
+    "serverless-deploy-dev": {
+      "cache": false,
+      "persistent": false,
+      "dependsOn": ["^dev-env"]
+    },
+    "backend-build": {
+      "cache": false,
+      "persistent": false,
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"]
+    },
+    "lambda-build": {
+      "cache": false,
+      "persistent": false,
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"]
+    },
+    "frontend-build": {
+      "cache": true,
+      "persistent": false,
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**"]
+    },
+    "backend-run": {
+      "cache": true,
+      "persistent": true
+    },
+    "frontend-dev": {
+      "cache": false,
+      "persistent": true,
+      "dependsOn": ["^dev-env"]
+    },
+    "extension-dev": {
+      "cache": false,
+      "persistent": true,
+      "dependsOn": ["^dev-env"]
+    },
+    "build-chrome": {
+      "cache": true,
+      "persistent": true,
+      "dependsOn": ["^build"]
+    },
+    "build-firefox": {
+      "cache": true,
+      "persistent": true,
+      "dependsOn": ["^build"]
+    },
+    "prisma-generate": {
+      "cache": false,
+      "persistent": false
+    },
+    "prisma-init": {
+      "cache": false,
+      "persistent": false,
+      "dependsOn": ["^dev-env"]
+    },
+    "prisma-init-data-loss": {
+      "cache": false,
+      "persistent": false,
+      "dependsOn": ["^dev-env"]
+    },
+    "graphql-codegen": {
+      "cache": false,
+      "persistent": false,
+      "dependsOn": ["^dev-env"]
+    },
+    "stripe-setup": {
+      "cache": false,
+      "persistent": false
+    },
+    "frontend-build-prod": {
+      "cache": false,
+      "persistent": false,
+      "dependsOn": ["^prod-env"],
+      "outputs": ["dist/**"]
+    },
+    "serverless-deploy-prod": {
+      "cache": true,
+      "persistent": false,
+      "dependsOn": ["^prod-env"]
+    }
+  }
+}

@@ -1,0 +1,3 @@
+mutation CreateExperience($name: String!, $content: String!) {
+  CreateExperience(name: $name, content: $content)
+}

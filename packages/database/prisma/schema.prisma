@@ -1,0 +1,225 @@
+generator client {
+  provider        = "prisma-client-js"
+  output          = "../node_modules/.prisma/client"
+  previewFeatures = ["postgresqlExtensions"]
+  binaryTargets = ["native", "rhel-openssl-1.0.x"]
+}
+
+ // Binary Targets include 
+
+generator pothos {
+  provider = "prisma-pothos-types"
+}
+
+datasource db {
+  provider   = "postgresql"
+  url        = env("DATABASE_URL")
+  directUrl  = env("DIRECT_URL")
+  extensions = [vector]
+}
+
+model User {
+  id                   String                 @id @default(uuid())
+  email                String                 @unique
+  name                 String
+  createdAt            DateTime               @default(now())
+  updatedAt            DateTime               @updatedAt
+  deletedAt            DateTime?
+  creditsSum           Int?                    @default(0)
+  lastCreditSum        DateTime               @default(now())
+  CV                   CV[]
+  Experience           Experience[]
+  Job                  Job[]
+  GoogleAuthToken      GoogleAuthToken?
+  ExperiencesUsed      ExperiencesUsed[]
+  GeneratedCv          GeneratedCv[]
+  GeneratedCoverLetter GeneratedCoverLetter[]
+  CoverLetterTemplate  CoverLetterTemplate[]
+  AnsweredQuestion    AnsweredQuestion[]
+
+  Credit         Credits[]
+  StripeCustomer StripeCustomer?
+}
+
+model CV {
+  id            String        @id @default(uuid())
+  userId        String
+  name          String?
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+  deletedAt     DateTime?
+  CV_Content    Json          @db.Json
+  googleDocId   String
+  isDefault     Boolean       @default(false) @db.Boolean
+  googleDocLink String        @default("https://youtube.com/watch?v=dQw4w9WgXcQ")
+  user          User          @relation(fields: [userId], references: [id])
+  GeneratedCv   GeneratedCv[]
+}
+
+model Experience {
+  id              String                       @id @default(uuid())
+  userId          String
+  name            String?
+  content         String
+  createdAt       DateTime                     @default(now())
+  updatedAt       DateTime                     @updatedAt
+  deletedAt       DateTime?
+  embedding       Unsupported("vector(1536)")?
+  user            User                         @relation(fields: [userId], references: [id])
+  ExperiencesUsed ExperiencesUsed[]
+}
+
+model Job {
+  id                   String                       @id @default(uuid())
+  userId               String
+  name                 String?
+  url                  String // The URL that the job description was acquired from
+  description          String[]
+  createdAt            DateTime                     @default(now())
+  status               String                       @default("Pending")
+  updatedAt            DateTime                     @updatedAt
+  deletedAt            DateTime?
+  suitabilityScore     Float?                       @default(0)
+  suitabilityScoreDate DateTime?
+  embedding            Unsupported("vector(1536)")?
+  user                 User                         @relation(fields: [userId], references: [id])
+  GeneratedCv          GeneratedCv[]
+  GeneratedCoverLetter GeneratedCoverLetter[]
+  AnsweredQuestion    AnsweredQuestion[]
+}
+
+model GoogleAuthToken {
+  id           String    @id @default(uuid())
+  userId       String    @unique
+  refreshToken String?
+  accessToken  String?
+  accessExpiry DateTime?
+  scope        String[]  @default([])
+  driveFolderId String?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  deletedAt    DateTime?
+  user         User      @relation(fields: [userId], references: [id])
+}
+
+model ExperiencesUsed {
+  id                     String                @id @default(uuid())
+  userId                 String
+  experienceId           String
+  generatedCvId          String?
+  generatedCoverLetterId String?
+  createdAt              DateTime              @default(now())
+  updatedAt              DateTime              @updatedAt
+  deletedAt              DateTime?
+  user                   User                  @relation(fields: [userId], references: [id])
+  Experience             Experience            @relation(fields: [experienceId], references: [id])
+  GeneratedCv            GeneratedCv?          @relation(fields: [generatedCvId], references: [id])
+  GeneratedCoverLetter   GeneratedCoverLetter? @relation(fields: [generatedCoverLetterId], references: [id])
+}
+
+model GeneratedCv {
+  id              String            @id @default(uuid())
+  userId          String
+  jobId           String
+  CVId            String
+  name            String?
+  content         Json              @db.Json
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
+  googleDocId     String
+  deletedAt       DateTime?
+  user            User              @relation(fields: [userId], references: [id])
+  job             Job               @relation(fields: [jobId], references: [id])
+  CV              CV                @relation(fields: [CVId], references: [id])
+  ExperiencesUsed ExperiencesUsed[]
+  Credits         Credits[]
+}
+
+model GeneratedCoverLetter {
+  id              String               @id @default(uuid())
+  userId          String
+  jobId           String
+  name            String?
+  googleDocId     String
+  templateId      String?
+  content         String[]
+  createdAt       DateTime             @default(now())
+  updatedAt       DateTime             @updatedAt
+  deletedAt       DateTime?
+  user            User                 @relation(fields: [userId], references: [id], onDelete: Cascade)
+  job             Job                  @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  template        CoverLetterTemplate? @relation(fields: [templateId], references: [id])
+  ExperiencesUsed ExperiencesUsed[]
+  Credits         Credits[]
+}
+
+model CoverLetterTemplate {
+  id                   String                 @id @default(uuid())
+  userId               String
+  name                 String?
+  googleDocId          String
+  active               Boolean                @default(true)
+  createdAt            DateTime               @default(now())
+  updatedAt            DateTime               @updatedAt
+  deletedAt            DateTime?
+  user                 User                   @relation(fields: [userId], references: [id], onDelete: Cascade)
+  GeneratedCoverLetter GeneratedCoverLetter[]
+}
+
+model Credits {
+  id                     String    @id @default(uuid())
+  userId                 String
+  amount                 Int       @default(0)
+  note                   String    @default("N/A")
+  createdAt              DateTime  @default(now())
+  updatedAt              DateTime  @updatedAt
+  deletedAt              DateTime?
+  GeneratedCoverLetterId String?
+  GeneratedCvId          String?
+  user                   User      @relation(fields: [userId], references: [id])
+
+  GeneratedCoverLetter GeneratedCoverLetter? @relation(fields: [GeneratedCoverLetterId], references: [id])
+  GeneratedCv          GeneratedCv?          @relation(fields: [GeneratedCvId], references: [id])
+  AnsweredQuestion     AnsweredQuestion[]
+
+  StripePaymentRecord  StripePaymentRecord[]
+}
+
+model StripeCustomer {
+  id                  String                @id @default(uuid())
+  userId              String                @unique
+  customerId          String                @unique
+  updatedAt           DateTime              @updatedAt
+  createdAt           DateTime              @default(now())
+  deletedAt           DateTime?
+  user                User                  @relation(fields: [userId], references: [id])
+  StripePaymentRecord StripePaymentRecord[]
+}
+
+model StripePaymentRecord {
+  id               String         @id @default(uuid())
+  chargeId         String         @unique // the charge id from stripe
+  creditId         String                 // the credit id from our database
+  stripeCustomerId String                 // the stripe customer id from stripe
+  amount           Int
+  currency         String
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+  deletedAt        DateTime?
+  Credit           Credits        @relation(fields: [creditId], references: [id])
+  StripeCustomer   StripeCustomer @relation(fields: [stripeCustomerId], references: [customerId])
+}
+
+model AnsweredQuestion {
+  id         String   @id @default(uuid())
+  userId     String
+  jobId      String?
+  question   String
+  answer     String
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  deletedAt  DateTime?
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  job        Job?      @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  Credits         Credits[]
+}

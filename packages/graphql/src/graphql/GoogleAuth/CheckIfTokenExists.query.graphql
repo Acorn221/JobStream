@@ -1,0 +1,13 @@
+query CheckIfTokenExists {
+  user {
+    ... on QueryUserSuccess {
+      __typename
+      data {
+        GoogleAuthToken {
+          id
+          scope
+        }
+      }
+    }
+  }
+}

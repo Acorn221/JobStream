@@ -1,0 +1,5 @@
+mutation UpdateJobName($id:String!, $name:String!) {
+  Updatejob(id: $id, name: $name){
+    id
+  }
+}

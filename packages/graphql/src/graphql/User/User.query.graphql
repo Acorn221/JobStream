@@ -1,0 +1,19 @@
+query GetUser {
+  user {
+    ... on Error {
+      __typename
+      message
+    }
+    ... on QueryUserSuccess {
+      __typename
+      data {
+        createdAt
+        email
+        id
+        name
+        updatedAt
+        creditsSum
+      }
+    }
+  }
+}

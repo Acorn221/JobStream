@@ -1,0 +1,11 @@
+query GetCoverLetterTemplates {
+  CoverLetterTemplates {
+    id
+    name
+    updatedAt
+    googleDocId
+    deletedAt
+    createdAt
+    active
+  }
+}

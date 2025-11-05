@@ -1,0 +1,170 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Full unit test Tests HTML output of simple CV 3`] = `
+[
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "1.paragraph.elements.0",
+  },
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "2.paragraph.elements.0",
+  },
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "3.paragraph.elements.0",
+  },
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "4.paragraph.elements.0",
+  },
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "5.paragraph.elements.0",
+  },
+  {
+    "Bold": true,
+    "Content": "this is AI stuff",
+    "JsonPath": "6.paragraph.elements.0",
+  },
+  {
+    "Bold": true,
+    "Content": "this is AI stuff",
+    "JsonPath": "7.paragraph.elements.0",
+    "Underline": true,
+  },
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "8.paragraph.elements.0",
+    "Underline": true,
+  },
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "8.paragraph.elements.1",
+  },
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "9.paragraph.elements.0",
+  },
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "10.paragraph.elements.0",
+  },
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "10.paragraph.elements.1",
+  },
+]
+`;
+
+exports[`Full unit test Tests HTML output of simple CV: 
+      [
+        {
+          "Content": "this is AI stuff",
+          "JsonPath": "1.paragraph.elements.0",
+        },
+        {
+          "Content": "this is AI stuff",
+          "JsonPath": "2.paragraph.elements.0",
+        },
+        {
+          "Content": "this is AI stuff",
+          "JsonPath": "3.paragraph.elements.0",
+        },
+        {
+          "Content": "this is AI stuff",
+          "JsonPath": "4.paragraph.elements.0",
+        },
+        {
+          "Content": "this is AI stuff",
+          "JsonPath": "5.paragraph.elements.0",
+        },
+        {
+          "Bold": true,
+          "Content": "this is AI stuff",
+          "JsonPath": "6.paragraph.elements.0",
+        },
+        {
+          "Bold": true,
+          "Content": "this is AI stuff",
+          "JsonPath": "7.paragraph.elements.0",
+          "Underline": true,
+        },
+        {
+          "Content": "this is AI stuff",
+          "JsonPath": "8.paragraph.elements.0",
+          "Underline": true,
+        },
+        {
+          "Content": "this is AI stuff",
+          "JsonPath": "8.paragraph.elements.1",
+        },
+        {
+          "Content": "this is AI stuff",
+          "JsonPath": "9.paragraph.elements.0",
+        },
+        {
+          "Content": "this is AI stuff",
+          "JsonPath": "10.paragraph.elements.0",
+        },
+        {
+          "Content": "this is AI stuff",
+          "JsonPath": "10.paragraph.elements.1",
+        },
+      ]
+     1`] = `
+[
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "1.paragraph.elements.0",
+  },
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "2.paragraph.elements.0",
+  },
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "3.paragraph.elements.0",
+  },
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "4.paragraph.elements.0",
+  },
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "5.paragraph.elements.0",
+  },
+  {
+    "Bold": true,
+    "Content": "this is AI stuff",
+    "JsonPath": "6.paragraph.elements.0",
+  },
+  {
+    "Bold": true,
+    "Content": "this is AI stuff",
+    "JsonPath": "7.paragraph.elements.0",
+    "Underline": true,
+  },
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "8.paragraph.elements.0",
+    "Underline": true,
+  },
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "8.paragraph.elements.1",
+  },
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "9.paragraph.elements.0",
+  },
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "10.paragraph.elements.0",
+  },
+  {
+    "Content": "this is AI stuff",
+    "JsonPath": "10.paragraph.elements.1",
+  },
+]
+`;

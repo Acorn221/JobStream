@@ -1,0 +1,36 @@
+query GetJob {
+  user {
+    ... on QueryUserSuccess {
+      __typename
+      data {
+        job {
+          description
+          status
+          createdAt
+          id
+          name
+          updatedAt
+					url
+          suitabilityScore
+          GeneratedCv {
+            id
+            createdAt
+            googleDocId
+            cv {
+              id
+            }
+          }
+          GeneratedCoverLetter {
+            id
+            name
+            createdAt
+            googleDocId
+            coverLetterTemplate {
+              id
+            }
+          }
+        }
+      }
+    }
+  }
+}

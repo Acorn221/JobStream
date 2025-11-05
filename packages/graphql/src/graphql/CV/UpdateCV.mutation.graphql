@@ -1,0 +1,3 @@
+mutation RefreshCV($id: String!, $setDefault: Boolean, $refreshGoogleDoc: Boolean) {
+  UpdateCV(id: $id, setDefault: $setDefault, refreshGoogleDoc: $refreshGoogleDoc)
+}

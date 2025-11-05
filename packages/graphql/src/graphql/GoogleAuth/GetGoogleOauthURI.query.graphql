@@ -1,0 +1,3 @@
+query GetGoogleAuthURL($scope: [String!]!, $urlRedirect: String!) {
+  GetGoogleAuthURL(scope: $scope, urlRedirect: $urlRedirect)
+}

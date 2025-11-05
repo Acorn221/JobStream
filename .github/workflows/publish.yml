@@ -1,0 +1,46 @@
+on:
+  push:
+    branches: [ "master" ]
+
+env:
+  environment: prod
+
+jobs:
+  publish:
+    environment: prod
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    name: Publish to Cloudflare Pages
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20'
+
+      - name: Install pnpm
+        run: npm i -g pnpm
+
+      - name: Install dependencies
+        run: pnpm i
+
+      - name: Prisma Generate
+        run: ENVIRONMENT=${{ env.environment }} pnpm run prisma-generate-prod
+
+      - name: Build Frontend
+        run: ENVIRONMENT=${{ env.environment }} pnpm run frontend-build-prod
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: 13707d160c0bf444701229574b6e387b
+          projectName: jobstream-app
+          directory: /home/runner/work/JobStream/JobStream/apps/frontend/dist
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
+          wranglerVersion: '3'

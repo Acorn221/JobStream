@@ -1,0 +1,18 @@
+query GetCVs {
+  user {
+    ... on QueryUserSuccess {
+      __typename
+      data {
+        CV {
+          createdAt
+          googleDocId
+          id
+          name
+          updatedAt
+          googleDocLink
+          isDefault
+        }
+      }
+    }
+  }
+}

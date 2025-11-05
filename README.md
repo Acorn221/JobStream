@@ -1,4 +1,19 @@
-# Jobstream
+# JobStream
+
+![JobStream Icon](https://raw.githubusercontent.com/Acorn221/JobStream/refs/heads/main/assets/icon256.png)
+
+JobStream was created to solve the problem of cover letters and "why I want to work here" questions on job applications.
+
+It uses a turbo monorepo with a chrome extension that lets users select job descriptions, then lets them answer questions on applications with the context of their experience and the job description alongside generating cover letter PDFs via the google docs API.
+
+This was my main project I worked on when coming out of uni, until I joined Verdn (YC W22) where I used this to generate my message to the founders, which they didn't know was AI generated and only found out later.
+
+All content generated was designed to be previewed and edited by the user beforehand
+
+The goal was to have it edit CVs via the google docs API but that was not achievable due to the docs api not being designed for this.
+
+
+## Original Readme
 
 This project is to help people apply to jobs faster, currently by generating cover letters and CVs for them.
 In the future, the plan will be to help fast track the application process by automatically filling in parts of the application forms they are given.

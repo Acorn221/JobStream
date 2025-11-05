@@ -1,0 +1,43 @@
+query GetUserStats {
+  user {
+    ... on QueryUserSuccess {
+      __typename
+      data {
+        id
+        createdAt
+        email
+        name
+        updatedAt
+        creditsSum
+        job {
+          id
+          updatedAt
+        }
+        Experience {
+          id
+          updatedAt
+        }
+        CV {
+          id
+          updatedAt
+        }
+        coverLetterTemplate {
+          id
+          updatedAt
+        } 
+        generatedCoverLetter {
+          id
+          updatedAt
+        }
+        answeredQuestion {
+          id
+          updatedAt
+        }
+        GoogleAuthToken {
+          id
+          driveFolderId
+        }
+      }
+    }
+  }
+}

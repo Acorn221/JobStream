@@ -1,0 +1,3 @@
+mutation AnswerQuestion($question:String!, $jobId:String) {
+  AnswerQuestion(question: $question, jobId: $jobId)
+}

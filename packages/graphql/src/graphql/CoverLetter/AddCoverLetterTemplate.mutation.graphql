@@ -1,0 +1,3 @@
+mutation CreateCoverLetterTemplate($Ids:[String!]!) {
+  CreateCoverLetterTemplate(googleDocIds: $Ids)
+}

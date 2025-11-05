@@ -1,0 +1,32 @@
+/* eslint-disable import/no-mutable-exports */
+
+import {
+  MIN_EXPERIENCES_FOR_SUITABILITY as MIN_EXPERIENCES_FOR_SUITABILITY_ENV,
+  SUITABILITY_EXPERIENCES_COUNT as SUITABILITY_EXPERIENCES_COUNT_ENV,
+} from 'backend-env';
+
+// TODO depreciate this file
+export {
+  GOOGLE_CLIENT_ID,
+  GOOGLE_CLIENT_SECRET,
+  VITE_FRONTEND_URL,
+  MAX_CV_CONTENT_LENGTH,
+  AZURE_OPENAI_KEY,
+  AZURE_OPENAI_ENDPOINT,
+  DATABASE_URL,
+  DIRECT_URL,
+  STRIPE_SECRET_KEY,
+} from 'backend-env';
+
+export const MIN_EXPERIENCES_FOR_SUITABILITY = Number(MIN_EXPERIENCES_FOR_SUITABILITY_ENV);
+export const SUITABILITY_EXPERIENCES_COUNT = Number(SUITABILITY_EXPERIENCES_COUNT_ENV);
+
+export const TEST_HEADERS = process.env.TEST_HEADERS || '';
+
+export enum ENDPOINTS {
+  AUTH = '/auth',
+  LOGIN = '/login',
+  REGISTER = '/register',
+  REFRESH = '/refresh',
+  LOGOUT = '/logout',
+}

@@ -1,0 +1,3 @@
+query GetGoogleAccessToken {
+  GetGoogleAccessToken
+}

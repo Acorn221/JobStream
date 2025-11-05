@@ -1,0 +1,8 @@
+mutation CreateJob($description:[String!]!, $url:String!, $autoGenerateCoverLetter: Boolean, $autoGenerateCV: Boolean) {
+  Createjob(description: $description, url: $url, autoGenerateCoverLetter: $autoGenerateCoverLetter, autoGenerateCv:$autoGenerateCV){
+    id
+    GeneratedCoverLetter {
+      googleDocId
+    }
+  }
+}

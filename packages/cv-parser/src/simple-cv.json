@@ -1,0 +1,1803 @@
+{
+  "title": "Revised CV",
+  "body": {
+    "content": [
+      {
+        "endIndex": 1,
+        "sectionBreak": {
+          "sectionStyle": {
+            "columnSeparatorStyle": "NONE",
+            "contentDirection": "LEFT_TO_RIGHT",
+            "marginTop": {
+              "magnitude": 14.4,
+              "unit": "PT"
+            },
+            "marginBottom": {
+              "magnitude": 14.4,
+              "unit": "PT"
+            },
+            "marginRight": {
+              "magnitude": 14.4,
+              "unit": "PT"
+            },
+            "marginLeft": {
+              "magnitude": 14.4,
+              "unit": "PT"
+            },
+            "sectionType": "CONTINUOUS"
+          }
+        }
+      },
+      {
+        "startIndex": 1,
+        "endIndex": 837,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1,
+              "endIndex": 837,
+              "textRun": {
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at commodo metus, tristique rutrum magna. Maecenas mattis, velit quis malesuada mattis, est diam pharetra turpis, et imperdiet lectus leo quis sapien. Etiam eget consectetur ipsum. Fusce vehicula sapien non suscipit molestie. Maecenas ac ligula interdum, ultricies arcu nec, laoreet enim. Pellentesque ullamcorper facilisis leo, vel elementum magna sollicitudin in. Quisque a eros vitae sapien tincidunt vulputate in et neque. Ut at diam sit amet massa mollis euismod. Nulla congue tempor ligula, ac semper dui ultrices non. Duis pulvinar diam sit amet magna eleifend ultrices. Maecenas nec varius lacus. Sed vel consectetur dui. Cras quis faucibus ante. Vivamus egestas neque nunc, et dictum nunc tincidunt aliquet. Morbi pulvinar vestibulum diam facilisis vehicula.\n",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 10.5,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Arial",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "alignment": "JUSTIFIED",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceBelow": {
+              "magnitude": 11,
+              "unit": "PT"
+            },
+            "borderBetween": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderTop": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderBottom": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderLeft": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderRight": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "shading": {
+              "backgroundColor": {
+                "color": {
+                  "rgbColor": {
+                    "red": 1,
+                    "green": 1,
+                    "blue": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 837,
+        "endIndex": 1454,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 837,
+              "endIndex": 1454,
+              "textRun": {
+                "content": "Pellentesque efficitur mauris scelerisque commodo finibus. Donec porttitor tellus eu urna malesuada rhoncus et nec leo. Vestibulum euismod efficitur gravida. Integer pretium rutrum varius. Sed eros erat, bibendum ac nisi sed, tempor blandit urna. In lacinia, ligula id sagittis rhoncus, sapien turpis finibus quam, sit amet dictum lectus mauris eu eros. Morbi eget dapibus justo. Sed sagittis lacus ipsum, tincidunt ornare lectus vehicula quis. In ac libero odio. Donec rhoncus dolor dictum tellus rhoncus vestibulum. Fusce porttitor elit libero, a pretium magna luctus et. Sed ullamcorper enim eu convallis euismod.\n",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 10.5,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Arial",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "alignment": "JUSTIFIED",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceBelow": {
+              "magnitude": 11,
+              "unit": "PT"
+            },
+            "borderBetween": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderTop": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderBottom": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderLeft": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderRight": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "shading": {
+              "backgroundColor": {
+                "color": {
+                  "rgbColor": {
+                    "red": 1,
+                    "green": 1,
+                    "blue": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 1454,
+        "endIndex": 1912,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1454,
+              "endIndex": 1912,
+              "textRun": {
+                "content": "Nullam magna diam, lacinia nec posuere eu, laoreet vitae dolor. Aenean felis purus, tempor non mattis eget, dapibus vel dui. Mauris mattis vitae lectus eget consectetur. Quisque quis magna et nulla dignissim iaculis non eget felis. Vestibulum id egestas diam, quis lobortis erat. Proin pulvinar consequat massa, nec pretium dolor iaculis a. Fusce quis vestibulum tellus, sit amet sagittis orci. Donec viverra orci id nisi condimentum, et luctus nibh congue.\n",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 10.5,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Arial",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "alignment": "JUSTIFIED",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceBelow": {
+              "magnitude": 11,
+              "unit": "PT"
+            },
+            "borderBetween": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderTop": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderBottom": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderLeft": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderRight": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "shading": {
+              "backgroundColor": {
+                "color": {
+                  "rgbColor": {
+                    "red": 1,
+                    "green": 1,
+                    "blue": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 1912,
+        "endIndex": 2745,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 1912,
+              "endIndex": 2745,
+              "textRun": {
+                "content": "Ut eu diam elementum, aliquam nibh ut, suscipit urna. Pellentesque egestas, lorem at congue ultrices, velit lacus pellentesque enim, sed lacinia ante mauris vel nunc. Cras gravida elit quis orci volutpat, at ornare ligula gravida. Aliquam at ante tempor nibh molestie hendrerit at et sem. Integer feugiat, ante at consequat maximus, magna lorem convallis dui, et eleifend nisl quam vitae enim. Curabitur rutrum odio at sem vestibulum sodales. Phasellus placerat dictum arcu a convallis. Cras nunc magna, sodales eu magna mollis, rutrum rutrum est. Suspendisse ornare a urna at vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. In tempus justo sed augue rhoncus, quis elementum ipsum commodo. Cras sed lectus ac quam vehicula lacinia. Praesent convallis hendrerit hendrerit. Nam auctor eu ligula quis tincidunt.\n",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 10.5,
+                    "unit": "PT"
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "alignment": "JUSTIFIED",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceBelow": {
+              "magnitude": 11,
+              "unit": "PT"
+            },
+            "borderBetween": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderTop": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderBottom": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderLeft": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderRight": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "shading": {
+              "backgroundColor": {
+                "color": {
+                  "rgbColor": {
+                    "red": 1,
+                    "green": 1,
+                    "blue": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 2745,
+        "endIndex": 2746,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2745,
+              "endIndex": 2746,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 10.5,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Arial",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "alignment": "JUSTIFIED",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceBelow": {
+              "magnitude": 11,
+              "unit": "PT"
+            },
+            "borderBetween": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderTop": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderBottom": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderLeft": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderRight": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "shading": {
+              "backgroundColor": {
+                "color": {
+                  "rgbColor": {
+                    "red": 1,
+                    "green": 1,
+                    "blue": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 2746,
+        "endIndex": 2756,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2746,
+              "endIndex": 2756,
+              "textRun": {
+                "content": "I am bold\n",
+                "textStyle": {
+                  "bold": true,
+                  "fontSize": {
+                    "magnitude": 10.5,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Arial",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "alignment": "JUSTIFIED",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceBelow": {
+              "magnitude": 11,
+              "unit": "PT"
+            },
+            "borderBetween": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderTop": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderBottom": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderLeft": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderRight": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "shading": {
+              "backgroundColor": {
+                "color": {
+                  "rgbColor": {
+                    "red": 1,
+                    "green": 1,
+                    "blue": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 2756,
+        "endIndex": 2781,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2756,
+              "endIndex": 2781,
+              "textRun": {
+                "content": "I am underlined and bold\n",
+                "textStyle": {
+                  "bold": true,
+                  "underline": true,
+                  "fontSize": {
+                    "magnitude": 10.5,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Arial",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "alignment": "JUSTIFIED",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceBelow": {
+              "magnitude": 11,
+              "unit": "PT"
+            },
+            "borderBetween": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderTop": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderBottom": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderLeft": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderRight": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "shading": {
+              "backgroundColor": {
+                "color": {
+                  "rgbColor": {
+                    "red": 1,
+                    "green": 1,
+                    "blue": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 2781,
+        "endIndex": 2793,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2781,
+              "endIndex": 2792,
+              "textRun": {
+                "content": "I am a link",
+                "textStyle": {
+                  "underline": true,
+                  "foregroundColor": {
+                    "color": {
+                      "rgbColor": {
+                        "red": 0.06666667,
+                        "green": 0.33333334,
+                        "blue": 0.8
+                      }
+                    }
+                  },
+                  "fontSize": {
+                    "magnitude": 10.5,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Arial",
+                    "weight": 400
+                  },
+                  "link": {
+                    "url": "https://www.facebook.com/stmartins.stokegolding/videos/i-am-a-link-in-a-chain-a-bond-of-connection-between-persons-he-has-not-created-m/2476425732632340/"
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 2792,
+              "endIndex": 2793,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 10.5,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Arial",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "alignment": "JUSTIFIED",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceBelow": {
+              "magnitude": 11,
+              "unit": "PT"
+            },
+            "borderBetween": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderTop": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderBottom": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderLeft": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderRight": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "shading": {
+              "backgroundColor": {
+                "color": {
+                  "rgbColor": {
+                    "red": 1,
+                    "green": 1,
+                    "blue": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 2793,
+        "endIndex": 2805,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2793,
+              "endIndex": 2805,
+              "textRun": {
+                "content": "I am a list\n",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 10.5,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Arial",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "alignment": "JUSTIFIED",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceBelow": {
+              "magnitude": 11,
+              "unit": "PT"
+            },
+            "borderBetween": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderTop": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderBottom": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderLeft": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderRight": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "shading": {
+              "backgroundColor": {
+                "color": {
+                  "rgbColor": {
+                    "red": 1,
+                    "green": 1,
+                    "blue": 1
+                  }
+                }
+              }
+            }
+          },
+          "bullet": {
+            "listId": "kix.3vqihsijow",
+            "textStyle": {
+              "underline": false,
+              "fontSize": {
+                "magnitude": 10.5,
+                "unit": "PT"
+              },
+              "weightedFontFamily": {
+                "fontFamily": "Arial",
+                "weight": 400
+              }
+            }
+          }
+        }
+      },
+      {
+        "startIndex": 2805,
+        "endIndex": 2830,
+        "paragraph": {
+          "elements": [
+            {
+              "startIndex": 2805,
+              "endIndex": 2829,
+              "textRun": {
+                "content": "And I am another element",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 10.5,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Arial",
+                    "weight": 400
+                  }
+                }
+              }
+            },
+            {
+              "startIndex": 2829,
+              "endIndex": 2830,
+              "textRun": {
+                "content": "\n",
+                "textStyle": {
+                  "fontSize": {
+                    "magnitude": 10.5,
+                    "unit": "PT"
+                  },
+                  "weightedFontFamily": {
+                    "fontFamily": "Arial",
+                    "weight": 400
+                  }
+                }
+              }
+            }
+          ],
+          "paragraphStyle": {
+            "namedStyleType": "NORMAL_TEXT",
+            "alignment": "JUSTIFIED",
+            "direction": "LEFT_TO_RIGHT",
+            "spaceBelow": {
+              "magnitude": 11,
+              "unit": "PT"
+            },
+            "borderBetween": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderTop": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderBottom": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderLeft": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "borderRight": {
+              "color": {},
+              "width": {
+                "unit": "PT"
+              },
+              "padding": {
+                "unit": "PT"
+              },
+              "dashStyle": "SOLID"
+            },
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "shading": {
+              "backgroundColor": {
+                "color": {
+                  "rgbColor": {
+                    "red": 1,
+                    "green": 1,
+                    "blue": 1
+                  }
+                }
+              }
+            }
+          },
+          "bullet": {
+            "listId": "kix.3vqihsijow",
+            "textStyle": {
+              "underline": false,
+              "fontSize": {
+                "magnitude": 10.5,
+                "unit": "PT"
+              },
+              "weightedFontFamily": {
+                "fontFamily": "Arial",
+                "weight": 400
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "documentStyle": {
+    "background": {
+      "color": {
+        "color": {
+          "rgbColor": {
+            "red": 1,
+            "green": 1,
+            "blue": 1
+          }
+        }
+      }
+    },
+    "pageNumberStart": 1,
+    "marginTop": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginBottom": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginRight": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "marginLeft": {
+      "magnitude": 72,
+      "unit": "PT"
+    },
+    "pageSize": {
+      "height": {
+        "magnitude": 841.8897637795277,
+        "unit": "PT"
+      },
+      "width": {
+        "magnitude": 595.2755905511812,
+        "unit": "PT"
+      }
+    },
+    "marginHeader": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "marginFooter": {
+      "magnitude": 36,
+      "unit": "PT"
+    },
+    "useCustomHeaderFooterMargins": true
+  },
+  "namedStyles": {
+    "styles": [
+      {
+        "namedStyleType": "NORMAL_TEXT",
+        "textStyle": {
+          "bold": false,
+          "italic": false,
+          "underline": false,
+          "strikethrough": false,
+          "smallCaps": false,
+          "backgroundColor": {},
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {}
+            }
+          },
+          "fontSize": {
+            "magnitude": 10,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "IBM Plex Mono",
+            "weight": 400
+          },
+          "baselineOffset": "NONE"
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "alignment": "START",
+          "lineSpacing": 100,
+          "direction": "LEFT_TO_RIGHT",
+          "spacingMode": "COLLAPSE_LISTS",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "borderBetween": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderTop": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderBottom": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderLeft": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "borderRight": {
+            "color": {},
+            "width": {
+              "unit": "PT"
+            },
+            "padding": {
+              "unit": "PT"
+            },
+            "dashStyle": "SOLID"
+          },
+          "indentFirstLine": {
+            "unit": "PT"
+          },
+          "indentStart": {
+            "unit": "PT"
+          },
+          "indentEnd": {
+            "unit": "PT"
+          },
+          "keepLinesTogether": false,
+          "keepWithNext": false,
+          "avoidWidowAndOrphan": true,
+          "shading": {
+            "backgroundColor": {}
+          },
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_1",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 20,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "IBM Plex Mono",
+            "weight": 300
+          }
+        },
+        "paragraphStyle": {
+          "headingId": "h.yp39d5amvywj",
+          "namedStyleType": "HEADING_1",
+          "alignment": "CENTER",
+          "lineSpacing": 100,
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 20,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true
+        }
+      },
+      {
+        "namedStyleType": "HEADING_2",
+        "textStyle": {
+          "bold": false,
+          "fontSize": {
+            "magnitude": 16,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 18,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 6,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_3",
+        "textStyle": {
+          "bold": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.2627451,
+                "green": 0.2627451,
+                "blue": 0.2627451
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 14,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_4",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 12,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 14,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_5",
+        "textStyle": {
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "HEADING_6",
+        "textStyle": {
+          "italic": true,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 11,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "magnitude": 12,
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 4,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "TITLE",
+        "textStyle": {
+          "fontSize": {
+            "magnitude": 26,
+            "unit": "PT"
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 3,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      },
+      {
+        "namedStyleType": "SUBTITLE",
+        "textStyle": {
+          "italic": false,
+          "foregroundColor": {
+            "color": {
+              "rgbColor": {
+                "red": 0.4,
+                "green": 0.4,
+                "blue": 0.4
+              }
+            }
+          },
+          "fontSize": {
+            "magnitude": 15,
+            "unit": "PT"
+          },
+          "weightedFontFamily": {
+            "fontFamily": "Arial",
+            "weight": 400
+          }
+        },
+        "paragraphStyle": {
+          "namedStyleType": "NORMAL_TEXT",
+          "direction": "LEFT_TO_RIGHT",
+          "spaceAbove": {
+            "unit": "PT"
+          },
+          "spaceBelow": {
+            "magnitude": 16,
+            "unit": "PT"
+          },
+          "keepLinesTogether": true,
+          "keepWithNext": true,
+          "pageBreakBefore": false
+        }
+      }
+    ]
+  },
+  "lists": {
+    "kix.3vqihsijow": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%0",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%1",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%2",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%3",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%4",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%5",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%6",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%7",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%8",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    },
+    "kix.j07046518sz6": {
+      "listProperties": {
+        "nestingLevels": [
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%0",
+            "indentFirstLine": {
+              "magnitude": 18,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 36,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%1",
+            "indentFirstLine": {
+              "magnitude": 54,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 72,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%2",
+            "indentFirstLine": {
+              "magnitude": 90,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 108,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%3",
+            "indentFirstLine": {
+              "magnitude": 126,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 144,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%4",
+            "indentFirstLine": {
+              "magnitude": 162,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 180,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%5",
+            "indentFirstLine": {
+              "magnitude": 198,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 216,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%6",
+            "indentFirstLine": {
+              "magnitude": 234,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 252,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%7",
+            "indentFirstLine": {
+              "magnitude": 270,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 288,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          },
+          {
+            "bulletAlignment": "START",
+            "glyphSymbol": "-",
+            "glyphFormat": "%8",
+            "indentFirstLine": {
+              "magnitude": 306,
+              "unit": "PT"
+            },
+            "indentStart": {
+              "magnitude": 324,
+              "unit": "PT"
+            },
+            "textStyle": {
+              "underline": false
+            },
+            "startNumber": 1
+          }
+        ]
+      }
+    }
+  },
+  "revisionId": "ALBJ4LvmLvzknRyhIPmVq11jhsxaCaTocSoWFckSc2ybFafKZ7VEirdm_ZTEXT_ZOtcwxajBQDNWww-x4Vd2oA",
+  "suggestionsViewMode": "SUGGESTIONS_INLINE",
+  "documentId": "1wpeuwv6bUrjEnyZFlD6cBlZl_Tx1A6iB30WM24VB3og"
+}

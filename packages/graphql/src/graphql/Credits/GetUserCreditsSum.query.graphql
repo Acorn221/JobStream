@@ -1,0 +1,14 @@
+query GetUserCreditsSum {
+  user {
+    ... on Error {
+      __typename
+      message
+    }
+    ... on QueryUserSuccess {
+      __typename
+      data {
+        creditsSum
+      }
+    }
+  }
+}

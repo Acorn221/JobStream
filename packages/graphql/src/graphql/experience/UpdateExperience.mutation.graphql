@@ -1,0 +1,3 @@
+mutation UpdateExperience($id: String!, $name: String!, $content: String!) {
+  UpdateExperience(id: $id, name: $name, content: $content)
+}

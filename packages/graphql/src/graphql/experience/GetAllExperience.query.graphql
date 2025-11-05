@@ -1,0 +1,16 @@
+query GetAllExperience {
+  user {
+    ... on QueryUserSuccess {
+      __typename
+      data {
+        Experience {
+          content
+          createdAt
+          id
+          name
+          updatedAt
+        }
+      }
+    }
+  }
+}

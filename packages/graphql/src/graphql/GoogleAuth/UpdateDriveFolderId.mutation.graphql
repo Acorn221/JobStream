@@ -1,0 +1,5 @@
+mutation UpdateDriveFolderId($folderId: String!) {
+  UpdateDriveFolderId(folderId: $folderId){
+    id
+  }
+}

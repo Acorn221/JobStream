@@ -1,0 +1,5 @@
+mutation AddGoogleAuthToken($authCode: String!, $scope: [String!]!, $redirectUri: String!) {
+  CreateGoogleAuthToken(authCode: $authCode, scope: $scope, redirectUri: $redirectUri) {
+    id
+  }
+}
